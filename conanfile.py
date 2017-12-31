@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostAsioConan(ConanFile):
     name = "boost_asio"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-asio"
+    url = "https://github.com/bincrafters/conan-boost_asio"
 
     lib_short_names = ["asio"]
     is_header_only = True
