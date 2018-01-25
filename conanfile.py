@@ -8,7 +8,8 @@ class BoostAsioConan(ConanFile):
     name = "boost_asio"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_asio"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["asio"]
     is_header_only = True
 
