@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.68.0@bincrafters/stable")
 
 class BoostAsioConan(base.BoostBaseConan):
     name = "boost_asio"
+    version = "1.68.0"
     url = "https://github.com/bincrafters/conan-boost_asio"
     lib_short_names = ["asio"]
     header_only_libs = ["asio"]
